@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "useUnknownInCatchVariables": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnreachableCode": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+    "incremental": true,
+    "baseUrl": "./src"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "./src/example.ts"]
+}

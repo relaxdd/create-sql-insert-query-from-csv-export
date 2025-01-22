@@ -1,0 +1,26 @@
+{
+  "name": "create-sql-insert-query-from-csv-export",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The function allows you to convert csv data from the export file that pgAdmin sends to a postgresql query string to create rows in the specified table.",
+  "license": "MIT",
+  "author": "awenn2015",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/create-sql-insert-query-from-csv-export.umd.cjs",
+  "module": "./dist/create-sql-insert-query-from-csv-export.js",
+  "exports": {
+    ".": {
+      "import": "./dist/create-sql-insert-query-from-csv-export.js",
+      "require": "./dist/create-sql-insert-query-from-csv-export.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11"
+  }
+}
